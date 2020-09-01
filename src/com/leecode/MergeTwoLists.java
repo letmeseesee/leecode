@@ -9,7 +9,7 @@ import java.util.Objects;
  * @version 1.0
  * @date 2020/9/1 21:45
  */
-public class mergeTwoLists {
+public class MergeTwoLists {
     public static void main(String[] args) {
         ListNode firstNode = new ListNode(1);
         ListNode firstNode1 = new ListNode(2);
