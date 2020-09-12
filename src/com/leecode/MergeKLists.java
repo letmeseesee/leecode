@@ -6,7 +6,6 @@ import java.util.Objects;
  * @author wyh
  * @version 1.0
  * @date 2020/9/3 21:48
- * @deprecated
  */
 public class MergeKLists {
     public static class ListNode {
@@ -65,12 +64,12 @@ public class MergeKLists {
     }
 
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists.length == 1){
+        if (lists.length == 1) {
             return lists[0];
         }
         ListNode current = null;
-        for (int i = 0; i < lists.length ; i++) {
-            current = mergeTwoLists(lists[i],current);
+        for (int i = 0; i < lists.length; i++) {
+            current = mergeTwoLists(lists[i], current);
         }
         return current;
     }
